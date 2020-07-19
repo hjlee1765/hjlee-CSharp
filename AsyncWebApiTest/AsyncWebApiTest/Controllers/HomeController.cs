@@ -27,6 +27,9 @@ namespace AsyncWebApiTest.Controllers
 	 *  
 	 *  결과를 즉시 리턴시키고 싶다면, background thread에 큐잉을 했다가 client가 주기적으로 체크해서 결과를 가져오는 방식으로 해야될까???
 	 *  -> 토비가 언급했었는데 그새 까먹으.. deferredResult 큐 확인해야겠다.
+	 *  
+	 *  
+	 *  참조 : https://stackoverflow.com/questions/31244301/async-await-in-mvc-controllers-action
 	 
 	 */
 
